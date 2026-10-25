@@ -1,21 +1,21 @@
 class Karma < Formula
   desc "Run Claude Code and Codex agents from one terminal"
   homepage "https://karmayoga.dev"
-  version "0.3.0"
+  version "0.3.1"
 
   on_macos do
-    url "https://github.com/karmayogasoftware/karmayoga/releases/download/v0.3.0/karma-0.3.0-macos-universal.tar.gz"
-    sha256 "546c2754a57cd12a5ad391e51e67e3f0e04443b2c9cb032ef8dcd6689b15e648"
+    url "https://github.com/karmayogasoftware/karmayoga/releases/download/v0.3.1/karma-0.3.1-macos-universal.tar.gz"
+    sha256 "72cd95dac6f6297c245e7a5b8838a8d810be29b6ad6ef3ce5058ca1313a731fe"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/karmayogasoftware/karmayoga/releases/download/v0.3.0/karma-0.3.0-linux-x86_64.tar.gz"
-      sha256 "62d2293cb1275ea0d95b22560e4311880eee69bcdcf478e5f1436692d34d02f8"
+      url "https://github.com/karmayogasoftware/karmayoga/releases/download/v0.3.1/karma-0.3.1-linux-x86_64.tar.gz"
+      sha256 "72ba9002ec23a7261ae1c0a174d90dce8f2388aefc109c9a37dc4b91dc3b462c"
     end
     on_arm do
-      url "https://github.com/karmayogasoftware/karmayoga/releases/download/v0.3.0/karma-0.3.0-linux-aarch64.tar.gz"
-      sha256 "1e9678d8af03692543df72db35b2e9fb67e9edb002bb069432ee945ec5c81d85"
+      url "https://github.com/karmayogasoftware/karmayoga/releases/download/v0.3.1/karma-0.3.1-linux-aarch64.tar.gz"
+      sha256 "e050e4bc40bccf9ab69e31778928cc6f4198b408b771a12c636bc8ad310ad9af"
     end
   end
 
