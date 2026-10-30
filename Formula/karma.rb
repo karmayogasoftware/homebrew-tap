@@ -1,21 +1,21 @@
 class Karma < Formula
   desc "Run Claude Code and Codex agents from one terminal"
   homepage "https://karmayoga.dev"
-  version "0.3.1"
+  version "0.3.2"
 
   on_macos do
-    url "https://github.com/karmayogasoftware/karmayoga/releases/download/v0.3.1/karma-0.3.1-macos-universal.tar.gz"
-    sha256 "72cd95dac6f6297c245e7a5b8838a8d810be29b6ad6ef3ce5058ca1313a731fe"
+    url "https://github.com/karmayogasoftware/karmayoga/releases/download/v0.3.2/karma-0.3.2-macos-universal.tar.gz"
+    sha256 "98914bd5e0bdaad66beed0797f86b36b1e4763b3cc9c1f36e27c43d41ecdb5c7"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/karmayogasoftware/karmayoga/releases/download/v0.3.1/karma-0.3.1-linux-x86_64.tar.gz"
-      sha256 "72ba9002ec23a7261ae1c0a174d90dce8f2388aefc109c9a37dc4b91dc3b462c"
+      url "https://github.com/karmayogasoftware/karmayoga/releases/download/v0.3.2/karma-0.3.2-linux-x86_64.tar.gz"
+      sha256 "eaf23641595190b2e0f1281db9b1c73a7d7f92a0c1bfc9755cdc7a19c91c77c3"
     end
     on_arm do
-      url "https://github.com/karmayogasoftware/karmayoga/releases/download/v0.3.1/karma-0.3.1-linux-aarch64.tar.gz"
-      sha256 "e050e4bc40bccf9ab69e31778928cc6f4198b408b771a12c636bc8ad310ad9af"
+      url "https://github.com/karmayogasoftware/karmayoga/releases/download/v0.3.2/karma-0.3.2-linux-aarch64.tar.gz"
+      sha256 "8b69f9aea2fee88f7c434f7e5dfd975bf0756f58e914e3ab8874a669f616b041"
     end
   end
 
@@ -24,7 +24,7 @@ class Karma < Formula
   end
 
   def caveats
-    "Run karma init to set up your tools."
+    "Run karma init to set up your tools"
   end
 
   test do
